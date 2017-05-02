@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Game Page</title>
+        <link rel="stylesheet" href="src/gamestyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script type="text/javascript" src="src/script.js"></script>
+    </head>
+    <body>
+    	<div id="game_button">
+    		<button id="start_button">Start</button>
+    		<button id="out_button"><a href="login.html">Logout</a></button>
+    	</div>
+    	<div id="kiri">
+    		<div id="container">
+    			<ul class="game">  
+			        <li class="2"><img src="src/img/2.jpg" alt="2"></li>  
+			        <li class="1"><img src="src/img/1.jpg" alt="1"></li>  
+			        <li class="4"><img src="src/img/4.jpg" alt="4"></li>  
+			        <li class="5"><img src="src/img/5.jpg" alt="5"></li>  
+			        <li class="6"><img src="src/img/6.jpg" alt="6"></li>  
+			        <li class="7"><img src="src/img/7.jpg" alt="7"></li>  
+			        <li class="2"><img src="src/img/2.jpg" alt="2"></li>  
+			        <li class="8"><img src="src/img/8.jpg" alt="8"></li>  
+			        <li class="4"><img src="src/img/4.jpg" alt="4"></li>  
+			        <li class="5"><img src="src/img/5.jpg" alt="5"></li>  
+			        <li class="6"><img src="src/img/6.jpg" alt="6"></li>  
+			        <li class="1"><img src="src/img/1.jpg" alt="1"></li>  
+			        <li class="3"><img src="src/img/3.jpg" alt="3"></li>  
+			        <li class="8"><img src="src/img/8.jpg" alt="8"></li>  
+			        <li class="7"><img src="src/img/7.jpg" alt="7"></li>  
+			        <li class="3"><img src="src/img/3.jpg" alt="3"></li>  
+			    </ul>
+    		</div>
+    	</div>
+	    <div id="kanan">
+	    	<div id="status">
+	    		<img class="profile_pic" src="src/gif/bg.gif" alt="profile">
+	    		<p id="user">Username: <span id="current_user"></span></p>
+	    		<p id="time">Time:
+	    			<span id="menit">00</span>
+	    			<span>:</span>
+	    			<span id="second">00</span>
+	    			<span>:</span>
+	    			<span id="milisecond">00</span>	    			
+	    		</p>
+	    	</div>
+	    	<div>
+	    		<table class="scoreboard">
+	    			<thead>
+	    				<td>Leaderboard<hr></td>
+	    			</thead>
+	    			<tr>
+	    				<td>1. <span id="user1"></span> - <span id="time1"></span></td>
+	    			</tr>
+	       			<tr>
+	    				<td>2. <span id="user2"></span> - <span id="time2"></span></td>
+	    			</tr>
+	    			<tr>
+	    				<td>3. <span id="user3"></span> - <span id="time3"></span></td>
+	    			</tr>
+	       			<tr>
+	    				<td>4. <span id="user4"></span> - <span id="time4"></span></td>
+	    			</tr>
+	    			<tr>
+	    				<td>5. <span id="user5"></span> - <span id="time5"></span></td>
+	    			</tr>
+	    		</table>
+	    	</div>	
+    	</div>
+    </body>
+</html>
