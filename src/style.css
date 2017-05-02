@@ -1,0 +1,80 @@
+body
+{
+    background-image: url('gif/shia.gif');
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: 100%;
+}
+
+#page_title
+{
+    font-family: 'Lobster', cursive;
+    font-size: 100px;
+
+    color: white;
+    text-shadow: 2px 3px 7px #008cba;
+}
+
+#page_subtitle
+{
+    font-family: 'Pacifico', cursive;
+    font-size: 23px;
+
+    padding-top: -20px;
+
+    color: white;
+    text-shadow: 0 3px 2px black;
+}
+
+#page_title,
+#page_subtitle
+{
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+/*
+Centering
+*/
+#login_form
+{
+    display: block;
+
+    width: 210px;
+    margin: 0 auto;
+    padding-top: 300px;
+}
+
+#username,
+#password
+{
+    font-family: sans-serif;
+
+    display: inline-block;
+
+    width: 200px;
+    height: 25px;
+    margin: 5px 0;
+}
+
+#submit
+{
+    display: inline-block;
+
+    width: 100%;
+    height: 35px;
+
+    color: white;
+    background-color: #008cba;
+}
+
+input
+{
+    padding: 5px;
+
+    text-decoration: none;
+
+    border: none;
+    border-radius: 8px;
+}
